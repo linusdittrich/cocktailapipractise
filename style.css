@@ -1,0 +1,117 @@
+body {
+    min-height: 100vh;
+    background: radial-gradient(rgb(160, 160, 0),rgb(0, 153, 0));
+    font-family: 'Murecho', sans-serif;
+  
+}
+
+#url {
+    display: none;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+#page {
+    display: flex;
+    justify-content: center;
+}
+
+#display {
+    display: relative;
+    min-height:80vh;
+    width: 	50vh;
+    border-style: solid;
+    border-color: rgb(161, 0, 0);
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: rgba(255, 255, 255, 0.356);
+    margin-left: 12%;
+    padding-bottom: 20px;
+}
+
+.Text {
+    margin-left:15px;
+    margin-right: 10px;
+    
+}
+
+#searchfield {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+    justify-content: auto;
+}
+
+#textfield {
+    display: flex;
+    position: relative;
+    border-radius: 3px;
+    justify-content: center;
+    
+}
+
+#searchbutton {
+    display: flex;
+    position: absolute;
+    height:100%;
+    width: 25px;
+    background-color: #800000;
+    border-radius: 3px;
+    margin-left: 200px;
+    justify-content:space-evenly;
+}
+
+#cocktailname {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#alcoholic {
+    margin-bottom: 20px;
+}
+
+#textinbetween {
+    margin-bottom: 15px;
+}
+
+#glass {
+    margin-bottom: 10px;
+}
+
+#zutaten {
+    display:flex;
+    position: relative;
+}
+
+#textinbetween2 {
+    margin-top: 15px;
+}
+
+#button {
+    display: flex;
+    position: relative;
+    justify-content: center;  
+    margin: 15% 15% auto auto; 
+}
+
+#button img {
+    transition: 1s ease-in-out;
+}
+
+.rotate1 {
+    transform: rotateX(360deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+#buttontext {
+    position: absolute;
+    color: white;
+    transform: translateZ(+100px);
+    margin-top: calc(50% - 20px);
+    font-size: 20px
+}
